@@ -1,0 +1,328 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="CIDbtn" max="32767" attributes="3"/>
+                                          <Component id="NOCbtn" alignment="0" max="32767" attributes="3"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="CIDtf" max="32767" attributes="1"/>
+                                          <Component id="NOCtf" alignment="0" min="-2" pref="81" max="-2" attributes="1"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="CalcAllBtn" min="-2" pref="142" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="DITbtn" max="32767" attributes="1"/>
+                                  <Component id="CODbtn" alignment="1" max="32767" attributes="1"/>
+                                  <Component id="ExitBtn" alignment="1" max="32767" attributes="1"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="CODtf" pref="98" max="32767" attributes="1"/>
+                                  <Component id="DITtf" alignment="0" pref="98" max="32767" attributes="1"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="SOVbtn" pref="54" max="32767" attributes="2"/>
+                                  <Component id="TIPbtn" alignment="1" pref="54" max="32767" attributes="2"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="SOVtf" max="32767" attributes="1"/>
+                                  <Component id="TIPtf" alignment="0" pref="83" max="32767" attributes="1"/>
+                              </Group>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="EOGbtn" max="32767" attributes="1"/>
+                                  <Component id="ENRbtn" alignment="0" min="-2" max="-2" attributes="1"/>
+                              </Group>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="EOGtf" pref="99" max="32767" attributes="0"/>
+                                  <Component id="ENRtf" pref="99" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel1" min="-2" max="-2" attributes="1"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="OntologyFilenameTF" min="-2" pref="172" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="LoadOWLFileBtn" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="OntologyFilenameTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LoadOWLFileBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="SOVbtn" alignment="3" max="32767" attributes="0"/>
+                          <Component id="SOVtf" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="TIPbtn" alignment="3" max="32767" attributes="0"/>
+                          <Component id="TIPtf" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="1">
+                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                      <Component id="ENRtf" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="8" max="32767" attributes="0"/>
+                      <Component id="EOGtf" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="ENRbtn" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="29" pref="29" max="29" attributes="0"/>
+                  </Group>
+                  <Component id="EOGbtn" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="NOCtf" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="DITbtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="DITtf" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                              <Component id="CODbtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="CODtf" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="CIDtf" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="NOCbtn" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="CIDbtn" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="ExitBtn" min="-2" max="-2" attributes="0"/>
+                  <Component id="CalcAllBtn" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="LoadOWLFileBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Load"/>
+        <Property name="toolTipText" type="java.lang.String" value="Load OWL File"/>
+        <Property name="name" type="java.lang.String" value="LoadOWLFileBtn" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="LoadOWLFileBtnMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="OntologyFilenameTF">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="e:\\1Working\\1mythesis\\Appendix1\\pbvc.pprj"/>
+        <Property name="name" type="java.lang.String" value="OntologyFilenameTF" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Load Ontology"/>
+        <Property name="name" type="java.lang.String" value="jLabel1" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="SOVbtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SOV"/>
+        <Property name="toolTipText" type="java.lang.String" value="Size of Vocabulary"/>
+        <Property name="name" type="java.lang.String" value="SOVbtn" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="SOVbtnMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="ENRbtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ENR"/>
+        <Property name="toolTipText" type="java.lang.String" value="Edge Node Ratio"/>
+        <Property name="name" type="java.lang.String" value="ENRbtn" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="ENRbtnMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="TIPbtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TIP"/>
+        <Property name="toolTipText" type="java.lang.String" value="Tree Impurity"/>
+        <Property name="name" type="java.lang.String" value="TIPbtn" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TIPbtnMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="DITbtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DIT"/>
+        <Property name="toolTipText" type="java.lang.String" value="Depth of inheritance"/>
+        <Property name="name" type="java.lang.String" value="DITbtn" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="SOVtf">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="SOVtf" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TIPtf">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="TIPtf" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ENRtf">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="ENRtf" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="CODtf">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="CODtf" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="NOCtf">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="NOCtf" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="CODbtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="COD"/>
+        <Property name="toolTipText" type="java.lang.String" value="Class-out Degree"/>
+        <Property name="name" type="java.lang.String" value="CODbtn" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="CIDbtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CID"/>
+        <Property name="toolTipText" type="java.lang.String" value="Class-in Degree"/>
+        <Property name="name" type="java.lang.String" value="CIDbtn" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="CIDtf">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="CIDtf" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="NOCbtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="NOC"/>
+        <Property name="toolTipText" type="java.lang.String" value="Number of Children"/>
+        <Property name="name" type="java.lang.String" value="NOCbtn" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="EOGtf">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="EOGtf" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="EOGbtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="EOG"/>
+        <Property name="toolTipText" type="java.lang.String" value="Entropy of Graph"/>
+        <Property name="name" type="java.lang.String" value="EOGbtn" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="EOGbtnMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="DITtf">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="DITtf" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ontology-level Metrics"/>
+        <Property name="name" type="java.lang.String" value="jLabel2" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Class-level Metrics"/>
+        <Property name="name" type="java.lang.String" value="jLabel3" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="ExitBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Exit"/>
+        <Property name="name" type="java.lang.String" value="ExitBtn" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="ExitBtnMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="CalcAllBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calculate All"/>
+        <Property name="name" type="java.lang.String" value="CalcAllBtn" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="CalcAllBtnMouseClicked"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
