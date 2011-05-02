@@ -1,13 +1,11 @@
-#summary One-sentence summary of this page.
+#summary _*Common Shared Context Knowledge Base mediated*_ by agents for building context aware applications.
 
 = Introduction =
 
-_*Common Shared Context Knowledge Base mediated*_ by agents for building context aware applications. 
-
-= Details =
-
 Context information are captured and stored in a common shared knowledge base, which is mediated by Context Knowledge Base Agent. This KB as are central knowledge base that can be used and contributed by different applications. 
  
+http://1.bp.blogspot.com/-jPCLaaC3DmU/Tb4SOZN7uPI/AAAAAAAABXE/emyqxRjXbEM/s400/architect.png
+
 
 = Demonstration =
   * Environment setup.  [http://www.youtube.com/watch?v=Mu2oGVelJVo&feature=player_embedded]
