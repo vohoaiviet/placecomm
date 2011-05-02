@@ -7,11 +7,9 @@ _*Common Shared Context Knowledge Base mediated*_ by agents for building context
 = Details =
 
 Context information are captured and stored in a common shared knowledge base, which is mediated by Context Knowledge Base Agent. This KB as are central knowledge base that can be used and contributed by different applications. 
-
-<a href="www.yahoo.com"> Test link to yahoo </a>
- http://www.yahoo.com 
+ 
 
 = Demonstration =
-  * Environment setup.  [ Click here]
-  * Semantic Place Browser: Using mobile agent on mobile device, discover the semantic of sensed objects in the physical environment. [ Click here]
-  * PlaceComm Performance Evaluation using PlaceComm Console. [ Click here]
+  * Environment setup.  [http://www.youtube.com/watch?v=Mu2oGVelJVo&feature=player_embedded]
+  * Semantic Place Browser: Using mobile agent on mobile device, discover the semantic of sensed objects in the physical environment. [http://www.youtube.com/watch?v=0OO7o3LMaMo&feature=player_embedded]
+  * PlaceComm Performance Evaluation using PlaceComm Console. [http://tuannnguyen.blogspot.com/2011/04/placecomm-performance-evaluation.html]
