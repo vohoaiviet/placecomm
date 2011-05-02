@@ -4,8 +4,17 @@
 
 This is the content
 
+= Architecture =
+
+<a href="www.yahoo.com"> Test link to yahoo </a>
+
+= Demonstration =
+  * a
+  * b
+  * c
 
 = Details =
+
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
