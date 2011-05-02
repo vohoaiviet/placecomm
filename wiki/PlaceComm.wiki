@@ -1,4 +1,4 @@
-#summary _*Common Shared Context Knowledge Base mediated*_ by agents for building context aware applications.
+#summary Common Shared Context Knowledge Base mediated by agents for building context aware applications.
 
 = Introduction =
 
