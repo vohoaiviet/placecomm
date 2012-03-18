@@ -1,0 +1,19 @@
+PREFIX plc:<http://www.tuannguyen.mobi/ontologies/pbvc/2009/4/place.owl#>
+PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+PREFIX swrl:<http://www.w3.org/2003/11/swrl#>
+PREFIX protege:<http://protege.stanford.edu/plugins/owl/protege#>
+PREFIX foaf:<http://xmlns.com/foaf/0.1/>
+PREFIX dev:<http://www.tuannguyen.mobi/ontologies/pbvc/2009/4/device.owl#>
+PREFIX xsp:<http://www.owl-ontologies.com/2005/08/07/xsp.owl#>
+PREFIX swrlb:<http://www.w3.org/2003/11/swrlb#>
+PREFIX xsd:<http://www.w3.org/2001/XMLSchema#>
+PREFIX owl:<http://www.w3.org/2002/07/owl#>
+PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX pbvc:<http://www.tuannguyen.mobi/ontologies/pbvc/2009/4/pbvc.owl#>
+
+select ?device
+where {
+  ?device pbvc:devHasOwner ?owner.
+  ?owner foaf:name ?nnn .
+  FILTER (?nnn = "TuanNguyen"^^xsd:string)
+}

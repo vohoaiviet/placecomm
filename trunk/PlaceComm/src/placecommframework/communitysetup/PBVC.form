@@ -1,0 +1,2128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="tpPBVCTabsPanel" pref="1073" max="32767" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="tpPBVCTabsPanel" pref="657" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="tpPBVCTabsPanel">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tpPBVCTabsPanel" noResource="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="pPlaceManager">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="pPlaceManager" noResource="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Place Manager">
+                <Property name="tabTitle" type="java.lang.String" resourceKey="pPlaceManager.TabConstraints.tabTitle"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lbPlaceName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbPlaceCategory" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbLatitude" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbLongitude" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbDiameter" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="tfLat" alignment="0" pref="433" max="32767" attributes="1"/>
+                                  <Component id="tfPlaceName" alignment="0" pref="433" max="32767" attributes="1"/>
+                                  <Component id="tfLon" alignment="0" pref="433" max="32767" attributes="1"/>
+                                  <Component id="tfDiameter" alignment="0" pref="433" max="32767" attributes="1"/>
+                                  <Component id="choicePlaceCategory" alignment="0" pref="433" max="32767" attributes="1"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="btnCreatPlace" alignment="1" max="32767" attributes="1"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                                      <Component id="lbTaggedDevices" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="1">
+                                      <Component id="btnDeletePlace" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="btnClose" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="lbTaggedByDevices" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="lstTagDevice" alignment="0" min="-2" pref="217" max="-2" attributes="1"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="lbTaggedByPeople" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbPlaceMessage" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="taMessage1" alignment="0" pref="431" max="32767" attributes="1"/>
+                          <Component id="lbPlaceTaggedByPeople" alignment="0" min="-2" max="-2" attributes="1"/>
+                          <Component id="lstPeople" alignment="0" pref="431" max="32767" attributes="1"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lbPlaceMessage" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="taMessage1" alignment="0" max="32767" attributes="1"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lbPlaceName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tfPlaceName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lbPlaceCategory" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="choicePlaceCategory" alignment="0" min="-2" pref="33" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lbLatitude" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tfLat" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="lbLongitude" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tfLon" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="lbDiameter" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tfDiameter" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lbTaggedByPeople" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lstPeople" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lbPlaceTaggedByPeople" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lbTaggedDevices" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lstTagDevice" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lbTaggedByDevices" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="btnCreatPlace" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnDeletePlace" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnClose" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="java.awt.TextArea" name="taMessage1">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="taMessage1" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.TextField" name="tfLat">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="tfLat" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="lbPlaceCategory">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="lbPlaceCategory" noResource="true"/>
+                <Property name="text" type="java.lang.String" resourceKey="lbPlaceCategory.text"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="lbTaggedByPeople">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="lbTaggedByPeople" noResource="true"/>
+                <Property name="text" type="java.lang.String" resourceKey="lbTaggedByPeople.text"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Choice" name="choicePlaceCategory">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="choicePlaceCategory" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="lbTaggedByDevices">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="lbTaggedByDevices" noResource="true"/>
+                <Property name="text" type="java.lang.String" resourceKey="lbTaggedByDevices.text"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="lbPlaceName">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="lbPlaceName" noResource="true"/>
+                <Property name="text" type="java.lang.String" resourceKey="lbPlaceName.text"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="lbPlaceTaggedByPeople">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="lbPlaceTaggedByPeople" noResource="true"/>
+                <Property name="text" type="java.lang.String" resourceKey="lbPlaceTaggedByPeople.text"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.TextField" name="tfPlaceName">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="tfPlaceName" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.List" name="lstPeople">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="lstPeople" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="lbPlaceMessage">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="lbPlaceMessage" noResource="true"/>
+                <Property name="text" type="java.lang.String" resourceKey="lbPlaceMessage.text"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="lbLongitude">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="lbLongitude" noResource="true"/>
+                <Property name="text" type="java.lang.String" resourceKey="lbLongitude.text"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="lbDiameter">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="lbDiameter" noResource="true"/>
+                <Property name="text" type="java.lang.String" resourceKey="lbDiameter.text"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.TextField" name="tfLon">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="tfLon" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.List" name="lstTagDevice">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="lstTagDevice" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="lbTaggedDevices">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="lbTaggedDevices" noResource="true"/>
+                <Property name="text" type="java.lang.String" resourceKey="lbTaggedDevices.text"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Button" name="btnDeletePlace">
+              <Properties>
+                <Property name="label" type="java.lang.String" resourceKey="btnDeletePlace.label"/>
+                <Property name="name" type="java.lang.String" value="btnDeletePlace" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Button" name="btnClose">
+              <Properties>
+                <Property name="label" type="java.lang.String" resourceKey="btnClose.label"/>
+                <Property name="name" type="java.lang.String" value="btnClose" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.TextField" name="tfDiameter">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="tfDiameter" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Button" name="btnCreatPlace">
+              <Properties>
+                <Property name="label" type="java.lang.String" resourceKey="btnCreatPlace.label"/>
+                <Property name="name" type="java.lang.String" value="btnCreatPlace" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnCreatPlaceMouseClicked"/>
+              </Events>
+            </Component>
+            <Component class="java.awt.Label" name="lbLatitude">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="lbLatitude" noResource="true"/>
+                <Property name="text" type="java.lang.String" resourceKey="lbLatitude.text"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="pPBVCControlPanel">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="pPBVCControlPanel" noResource="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="PBVC Manager">
+                <Property name="tabTitle" type="java.lang.String" resourceKey="pPBVCControlPanel.TabConstraints.tabTitle"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lbStartContextAgent" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="btnStartContextAgent" min="-2" pref="187" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lbStartSensorAgent" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="btnStartSensorAgents" min="-2" pref="187" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lbStartPlaceAgent" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lbLoadNewAgent" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace pref="32" max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Group type="102" alignment="1" attributes="1">
+                                              <Component id="tfAgentJar" max="32767" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="btnLoadAgent" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="btnStartPlaceAgent" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lbStartPlatform" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lbStartPBVCAgent" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace pref="32" max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="btnStartPBVCAgent" min="-2" pref="187" max="-2" attributes="0"/>
+                                          <Component id="btnStartPlatform" alignment="0" min="-2" pref="187" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lbMessages" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lbSelectAgent" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="lbProtocol" min="-2" pref="48" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="btnComposeMessage" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="btnSend" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="cbbProtocols" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="cbbAgents" alignment="0" pref="225" max="32767" attributes="1"/>
+                                  <Component id="jScrollPane1" alignment="0" max="32767" attributes="1"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="btnDummyAgent" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lbSystemMessage" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="352" max="-2" attributes="0"/>
+                              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jScrollPane2" alignment="0" pref="1048" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbStartPlatform" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnStartPlatform" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbStartPBVCAgent" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnStartPBVCAgent" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbStartContextAgent" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnStartContextAgent" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbStartPlaceAgent" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnStartPlaceAgent" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbLoadNewAgent" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnLoadAgent" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="tfAgentJar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbStartSensorAgent" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnStartSensorAgents" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                              <Component id="lbSystemMessage" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbSelectAgent" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cbbAgents" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnDummyAgent" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="cbbProtocols" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbProtocol" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lbMessages" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane1" min="-2" pref="81" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="btnComposeMessage" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnSend" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" pref="177" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="204" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lbStartPlatform">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lbStartPlatform.text"/>
+                <Property name="name" type="java.lang.String" value="lbStartPlatform" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnStartPlatform">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="btnStartPlatform.text"/>
+                <Property name="name" type="java.lang.String" value="btnStartPlatform" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnStartPlatformMouseClicked"/>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnStartPlatformMouseEntered"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbStartPBVCAgent">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lbStartPBVCAgent.text"/>
+                <Property name="name" type="java.lang.String" value="lbStartPBVCAgent" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnStartPBVCAgent">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="btnStartPBVCAgent.text"/>
+                <Property name="name" type="java.lang.String" value="btnStartPBVCAgent" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnStartPBVCAgentMouseClicked"/>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnStartPBVCAgentMouseEntered"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbStartContextAgent">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lbStartContextAgent.text"/>
+                <Property name="name" type="java.lang.String" value="lbStartContextAgent" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnStartContextAgent">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="btnStartContextAgent.text"/>
+                <Property name="name" type="java.lang.String" value="btnStartContextAgent" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnStartPlaceAgent">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="btnStartPlaceAgent.text"/>
+                <Property name="name" type="java.lang.String" value="btnStartPlaceAgent" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbStartPlaceAgent">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lbStartPlaceAgent.text"/>
+                <Property name="name" type="java.lang.String" value="lbStartPlaceAgent" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbLoadNewAgent">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lbLoadNewAgent.text"/>
+                <Property name="name" type="java.lang.String" value="lbLoadNewAgent" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnLoadAgent">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="btnLoadAgent.text"/>
+                <Property name="name" type="java.lang.String" value="btnLoadAgent" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnStartSensorAgents">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="btnStartSensorAgents.text"/>
+                <Property name="name" type="java.lang.String" value="btnStartSensorAgents" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbStartSensorAgent">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lbStartSensorAgent.text"/>
+                <Property name="name" type="java.lang.String" value="lbStartSensorAgent" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tfAgentJar">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="tfAgentJar.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="tfAgentJar.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="tfAgentJar" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbSelectAgent">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lbSelectAgent.text"/>
+                <Property name="name" type="java.lang.String" value="lbSelectAgent" noResource="true"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jScrollPane1" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="taMessage">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="name" type="java.lang.String" value="taMessage" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JComboBox" name="cbbAgents">
+              <Properties>
+                <Property name="editable" type="boolean" value="true"/>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="3">
+                    <StringItem index="0" value="Agent1:localhost:1099/JADE"/>
+                    <StringItem index="1" value="Agent2:localhost:1099/JADE"/>
+                    <StringItem index="2" value="Agent3:localhost:1099/JADE"/>
+                  </StringArray>
+                </Property>
+                <Property name="name" type="java.lang.String" value="cbbAgents" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cbbProtocols">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="6">
+                    <StringItem index="0" value="WhereAmIGPS"/>
+                    <StringItem index="1" value="WhereAmIBT"/>
+                    <StringItem index="2" value="WhereAmI"/>
+                    <StringItem index="3" value="InsertKB"/>
+                    <StringItem index="4" value="ContextPreProcessing"/>
+                    <StringItem index="5" value=" "/>
+                  </StringArray>
+                </Property>
+                <Property name="name" type="java.lang.String" value="cbbProtocols" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbProtocol">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lbProtocol.text"/>
+                <Property name="name" type="java.lang.String" value="lbProtocol" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbMessages">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lbMessages.text"/>
+                <Property name="name" type="java.lang.String" value="lbMessages" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnComposeMessage">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="btnComposeMessage.text"/>
+                <Property name="name" type="java.lang.String" value="btnComposeMessage" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnSend">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="btnSend.text"/>
+                <Property name="name" type="java.lang.String" value="btnSend" noResource="true"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jScrollPane2" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="taSystemMessage">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="name" type="java.lang.String" value="taSystemMessage" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="jButton1">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jButton1.text"/>
+                <Property name="name" type="java.lang.String" value="jButton1" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbSystemMessage">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lbSystemMessage.text"/>
+                <Property name="name" type="java.lang.String" value="lbSystemMessage" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnDummyAgent">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="btnDummyAgent.text"/>
+                <Property name="name" type="java.lang.String" value="btnDummyAgent" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnDummyAgentMouseClicked"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="pQueryBuilder">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="pQueryBuilder" noResource="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Query Knowledge Base">
+                <Property name="tabTitle" type="java.lang.String" resourceKey="pQueryBuilder.TabConstraints.tabTitle"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lbWhere" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="tfSubject" min="-2" pref="116" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="cbbPredicate" min="-2" pref="111" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="tfObject" pref="342" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lbSelect" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                      <Component id="tfSelect" pref="583" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="431" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lbWhere1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="tfSubject1" min="-2" pref="116" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cbbPredicate1" min="-2" pref="111" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="tfObject1" pref="342" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" pref="431" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lbWhere2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="tfSubject2" min="-2" pref="116" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cbbPredicate2" min="-2" pref="111" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="tfObject2" pref="342" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" pref="431" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lbWhere3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="tfSubject3" min="-2" pref="116" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cbbPredicate3" min="-2" pref="111" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="tfObject3" pref="342" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" pref="431" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lbWhere4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="tfSubject4" min="-2" pref="116" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cbbPredicate4" min="-2" pref="111" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="tfObject4" pref="342" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" pref="431" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="cbTimeConcerns" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lbTimestamp1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="tfTimestamp1" min="-2" pref="144" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="tfTimestamp2" pref="377" max="32767" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="lbTimestamp2" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lbFilter" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="tfFilter" pref="582" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="432" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="lbPrefix" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jScrollPane3" min="-2" pref="342" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jScrollPane4" alignment="0" pref="1048" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="btnReserved" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btnReserved7" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btnReserved6" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="btnReserved8" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="btnReserved4" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btnReserved5" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btnReserved10" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="btnReserved9" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="btnGenerateSPARQL" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="btnParseSPARQL" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btnExecute" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btnClear" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lbPredefinedQueries" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="cbbPredefinedQuerries" min="-2" pref="355" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace pref="607" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lbPrefix" min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane3" min="-2" pref="94" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="tfSelect" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbSelect" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lbWhere" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="tfSubject" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbbPredicate" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tfObject" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lbWhere1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="tfSubject1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbbPredicate1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tfObject1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lbWhere2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="tfSubject2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbbPredicate2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tfObject2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lbWhere3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="tfSubject3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbbPredicate3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tfObject3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lbWhere4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="tfSubject4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbbPredicate4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tfObject4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbFilter" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tfFilter" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="tfTimestamp2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cbTimeConcerns" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbTimestamp1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbTimestamp2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="tfTimestamp1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jScrollPane4" min="-2" pref="122" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbPredefinedQueries" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cbbPredefinedQuerries" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnGenerateSPARQL" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnParseSPARQL" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnExecute" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnClear" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnReserved" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnReserved7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnReserved6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnReserved8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnReserved4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnReserved5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnReserved9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnReserved10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lbPrefix">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lbPrefix.text"/>
+                <Property name="name" type="java.lang.String" value="lbPrefix" noResource="true"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jScrollPane3" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JList" name="lstPrefix">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                      <StringArray count="12">
+                        <StringItem index="0" value="PREFIX plc:&lt;http://www.tuannguyen.mobi/ontologies/pbvc/2009/4/place.owl#&gt;"/>
+                        <StringItem index="1" value="PREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;"/>
+                        <StringItem index="2" value="PREFIX swrl:&lt;http://www.w3.org/2003/11/swrl#&gt;"/>
+                        <StringItem index="3" value="PREFIX protege:&lt;http://protege.stanford.edu/plugins/owl/protege#&gt;"/>
+                        <StringItem index="4" value="PREFIX foaf:&lt;http://xmlns.com/foaf/0.1/&gt;"/>
+                        <StringItem index="5" value="PREFIX dev:&lt;http://www.tuannguyen.mobi/ontologies/pbvc/2009/4/device.owl#&gt;"/>
+                        <StringItem index="6" value="PREFIX xsp:&lt;http://www.owl-ontologies.com/2005/08/07/xsp.owl#&gt;"/>
+                        <StringItem index="7" value="PREFIX swrlb:&lt;http://www.w3.org/2003/11/swrlb#&gt;"/>
+                        <StringItem index="8" value="PREFIX xsd:&lt;http://www.w3.org/2001/XMLSchema#&gt;"/>
+                        <StringItem index="9" value="PREFIX owl:&lt;http://www.w3.org/2002/07/owl#&gt;"/>
+                        <StringItem index="10" value="PREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;"/>
+                        <StringItem index="11" value="PREFIX pbvc:&lt;http://www.tuannguyen.mobi/ontologies/pbvc/2009/4/pbvc.owl#&gt;"/>
+                      </StringArray>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="lstPrefix" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="lbWhere">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lbWhere.text"/>
+                <Property name="name" type="java.lang.String" value="lbWhere" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tfSubject">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="tfSubject.text"/>
+                <Property name="name" type="java.lang.String" value="tfSubject" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cbbPredicate">
+              <Properties>
+                <Property name="editable" type="boolean" value="true"/>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="12">
+                    <StringItem index="0" value="rdfs:"/>
+                    <StringItem index="1" value="swrl:"/>
+                    <StringItem index="2" value="protege:"/>
+                    <StringItem index="3" value="foaf:"/>
+                    <StringItem index="4" value="dev:"/>
+                    <StringItem index="5" value="xsp:"/>
+                    <StringItem index="6" value="swrlb:"/>
+                    <StringItem index="7" value="xsd:"/>
+                    <StringItem index="8" value="owl:"/>
+                    <StringItem index="9" value="rdf:"/>
+                    <StringItem index="10" value="pbvc:"/>
+                    <StringItem index="11" value="plc:"/>
+                  </StringArray>
+                </Property>
+                <Property name="name" type="java.lang.String" value="cbbPredicate" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tfObject">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="tfObject.text"/>
+                <Property name="name" type="java.lang.String" value="tfObject" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbFilter">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lbFilter.text"/>
+                <Property name="name" type="java.lang.String" value="lbFilter" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tfFilter">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="tfFilter.text"/>
+                <Property name="name" type="java.lang.String" value="tfFilter" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="cbTimeConcerns">
+              <Properties>
+                <Property name="selected" type="boolean" value="true"/>
+                <Property name="text" type="java.lang.String" resourceKey="cbTimeConcerns.text"/>
+                <Property name="name" type="java.lang.String" value="cbTimeConcerns" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tfTimestamp2">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="tfTimestamp2.text"/>
+                <Property name="name" type="java.lang.String" value="tfTimestamp2" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tfTimestamp1">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="tfTimestamp1.text"/>
+                <Property name="name" type="java.lang.String" value="tfTimestamp1" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbTimestamp1">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lbTimestamp1.text"/>
+                <Property name="name" type="java.lang.String" value="lbTimestamp1" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbTimestamp2">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lbTimestamp2.text"/>
+                <Property name="name" type="java.lang.String" value="lbTimestamp2" noResource="true"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jScrollPane4" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="taSPARQL">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="name" type="java.lang.String" value="taSPARQL" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="btnGenerateSPARQL">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="btnGenerateSPARQL.text"/>
+                <Property name="name" type="java.lang.String" value="btnGenerateSPARQL" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnGenerateSPARQLMouseClicked"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnParseSPARQL">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="btnParseSPARQL.text"/>
+                <Property name="name" type="java.lang.String" value="btnParseSPARQL" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnParseSPARQLMouseClicked"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnExecute">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="btnExecute.text"/>
+                <Property name="name" type="java.lang.String" value="btnExecute" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnExecuteMouseClicked"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tfSelect">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="tfSelect.text"/>
+                <Property name="name" type="java.lang.String" value="tfSelect" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbSelect">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lbSelect.text"/>
+                <Property name="name" type="java.lang.String" value="lbSelect" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbWhere1">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lbWhere1.text"/>
+                <Property name="name" type="java.lang.String" value="lbWhere1" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tfSubject1">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="tfSubject1.text"/>
+                <Property name="name" type="java.lang.String" value="tfSubject1" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cbbPredicate1">
+              <Properties>
+                <Property name="editable" type="boolean" value="true"/>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="12">
+                    <StringItem index="0" value="rdfs:"/>
+                    <StringItem index="1" value="swrl:"/>
+                    <StringItem index="2" value="protege:"/>
+                    <StringItem index="3" value="foaf:"/>
+                    <StringItem index="4" value="dev:"/>
+                    <StringItem index="5" value="xsp:"/>
+                    <StringItem index="6" value="swrlb:"/>
+                    <StringItem index="7" value="xsd:"/>
+                    <StringItem index="8" value="owl:"/>
+                    <StringItem index="9" value="rdf:"/>
+                    <StringItem index="10" value="pbvc:"/>
+                    <StringItem index="11" value="plc:"/>
+                  </StringArray>
+                </Property>
+                <Property name="name" type="java.lang.String" value="cbbPredicate1" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tfObject1">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="tfObject1.text"/>
+                <Property name="name" type="java.lang.String" value="tfObject1" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbWhere2">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lbWhere2.text"/>
+                <Property name="name" type="java.lang.String" value="lbWhere2" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tfSubject2">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="tfSubject2.text"/>
+                <Property name="name" type="java.lang.String" value="tfSubject2" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cbbPredicate2">
+              <Properties>
+                <Property name="editable" type="boolean" value="true"/>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="12">
+                    <StringItem index="0" value="rdfs:"/>
+                    <StringItem index="1" value="swrl:"/>
+                    <StringItem index="2" value="protege:"/>
+                    <StringItem index="3" value="foaf:"/>
+                    <StringItem index="4" value="dev:"/>
+                    <StringItem index="5" value="xsp:"/>
+                    <StringItem index="6" value="swrlb:"/>
+                    <StringItem index="7" value="xsd:"/>
+                    <StringItem index="8" value="owl:"/>
+                    <StringItem index="9" value="rdf:"/>
+                    <StringItem index="10" value="pbvc:"/>
+                    <StringItem index="11" value="plc:"/>
+                  </StringArray>
+                </Property>
+                <Property name="name" type="java.lang.String" value="cbbPredicate2" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tfObject2">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="tfObject2.text"/>
+                <Property name="name" type="java.lang.String" value="tfObject2" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbWhere3">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lbWhere3.text"/>
+                <Property name="name" type="java.lang.String" value="lbWhere3" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tfSubject3">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="tfSubject3.text"/>
+                <Property name="name" type="java.lang.String" value="tfSubject3" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cbbPredicate3">
+              <Properties>
+                <Property name="editable" type="boolean" value="true"/>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="12">
+                    <StringItem index="0" value="rdfs:"/>
+                    <StringItem index="1" value="swrl:"/>
+                    <StringItem index="2" value="protege:"/>
+                    <StringItem index="3" value="foaf:"/>
+                    <StringItem index="4" value="dev:"/>
+                    <StringItem index="5" value="xsp:"/>
+                    <StringItem index="6" value="swrlb:"/>
+                    <StringItem index="7" value="xsd:"/>
+                    <StringItem index="8" value="owl:"/>
+                    <StringItem index="9" value="rdf:"/>
+                    <StringItem index="10" value="pbvc:"/>
+                    <StringItem index="11" value="plc:"/>
+                  </StringArray>
+                </Property>
+                <Property name="name" type="java.lang.String" value="cbbPredicate3" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tfObject3">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="tfObject3.text"/>
+                <Property name="name" type="java.lang.String" value="tfObject3" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbWhere4">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lbWhere4.text"/>
+                <Property name="name" type="java.lang.String" value="lbWhere4" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tfSubject4">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="tfSubject4.text"/>
+                <Property name="name" type="java.lang.String" value="tfSubject4" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cbbPredicate4">
+              <Properties>
+                <Property name="editable" type="boolean" value="true"/>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="12">
+                    <StringItem index="0" value="rdfs:"/>
+                    <StringItem index="1" value="swrl:"/>
+                    <StringItem index="2" value="protege:"/>
+                    <StringItem index="3" value="foaf:"/>
+                    <StringItem index="4" value="dev:"/>
+                    <StringItem index="5" value="xsp:"/>
+                    <StringItem index="6" value="swrlb:"/>
+                    <StringItem index="7" value="xsd:"/>
+                    <StringItem index="8" value="owl:"/>
+                    <StringItem index="9" value="rdf:"/>
+                    <StringItem index="10" value="pbvc:"/>
+                    <StringItem index="11" value="plc:"/>
+                  </StringArray>
+                </Property>
+                <Property name="name" type="java.lang.String" value="cbbPredicate4" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tfObject4">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="tfObject4.text"/>
+                <Property name="name" type="java.lang.String" value="tfObject4" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JToggleButton" name="btnClear">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="btnClear.text"/>
+                <Property name="name" type="java.lang.String" value="btnClear" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnClearMouseClicked"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnReserved">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="btnReserved.text"/>
+                <Property name="name" type="java.lang.String" value="btnReserved" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnReservedMouseClicked"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnReserved4">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="btnReserved4.text"/>
+                <Property name="name" type="java.lang.String" value="btnReserved4" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnReserved5">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="btnReserved5.text"/>
+                <Property name="name" type="java.lang.String" value="btnReserved5" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnReserved6">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="btnReserved6.text"/>
+                <Property name="name" type="java.lang.String" value="btnReserved6" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnReserved7">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="btnReserved7.text"/>
+                <Property name="name" type="java.lang.String" value="btnReserved7" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnReserved8">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="btnReserved8.text"/>
+                <Property name="name" type="java.lang.String" value="btnReserved8" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnReserved9">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="btnReserved9.text"/>
+                <Property name="name" type="java.lang.String" value="btnReserved9" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnReserved10">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="btnReserved10.text"/>
+                <Property name="name" type="java.lang.String" value="btnReserved10" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cbbPredefinedQuerries">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="6">
+                    <StringItem index="0" value="Where are my friends?"/>
+                    <StringItem index="1" value="Where are my devices? "/>
+                    <StringItem index="2" value="Who is PersonX? "/>
+                    <StringItem index="3" value="Where is PersonX last week? "/>
+                    <StringItem index="4" value="What services are here? "/>
+                    <StringItem index="5" value="What services related to my context?"/>
+                  </StringArray>
+                </Property>
+                <Property name="name" type="java.lang.String" value="cbbPredefinedQuerries" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbPredefinedQueries">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lbPredefinedQueries.text"/>
+                <Property name="name" type="java.lang.String" value="lbPredefinedQueries" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="pAgentsManagement">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="pAgentsManagement" noResource="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Agents Management">
+                <Property name="tabTitle" type="java.lang.String" resourceKey="pAgentsManagement.TabConstraints.tabTitle"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="tpAgentsGUITab" pref="1048" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="tpAgentsGUITab" pref="607" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JTabbedPane" name="tpAgentsGUITab">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="tpAgentsGUITab" noResource="true"/>
+              </Properties>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="PBVCAgent">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="PBVCAgent" noResource="true"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="PBVC Agent">
+                        <Property name="tabTitle" type="java.lang.String" resourceKey="PBVCAgent.TabConstraints.tabTitle"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jScrollPane6" alignment="0" max="32767" attributes="1"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lbAgentName" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lbSendTo" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lbMessageType" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="tfAgentName" pref="200" max="32767" attributes="1"/>
+                                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="cbbAgentsList" alignment="0" max="32767" attributes="1"/>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                                  <Component id="cbbMessageType" min="-2" pref="180" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="btnLaunchAgent" min="-2" max="-2" attributes="0"/>
+                                          <Component id="btnRefresh" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="lbMessageContents" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="btnCheckMessage" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btnSendMessage" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="lbMessageReceived" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="spMessageContent" alignment="0" max="32767" attributes="1"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane5" pref="608" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jScrollPane5" pref="362" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="lbAgentName" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="3" attributes="0">
+                                                  <Component id="lbSendTo" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="cbbAgentsList" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="btnRefresh" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="tfAgentName" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="btnLaunchAgent" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="lbMessageType" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="cbbMessageType" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="lbMessageContents" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="spMessageContent" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="btnCheckMessage" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="btnSendMessage" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                      <Component id="lbMessageReceived" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jScrollPane6" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace pref="160" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="lbAgentName">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="lbAgentName.text"/>
+                        <Property name="name" type="java.lang.String" value="lbAgentName" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="tfAgentName">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="tfAgentName.text"/>
+                        <Property name="name" type="java.lang.String" value="tfAgentName" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lbSendTo">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="lbSendTo.text"/>
+                        <Property name="name" type="java.lang.String" value="lbSendTo" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="cbbAgentsList">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="true"/>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="4">
+                            <StringItem index="0" value="Agent1@localhost:1099/JADE"/>
+                            <StringItem index="1" value="Agent2@localhost:1099/JADE"/>
+                            <StringItem index="2" value="Agent3@localhost:1099/JADE"/>
+                            <StringItem index="3" value="Agent4@localhost:1099/JADE"/>
+                          </StringArray>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="cbbAgentsList" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnRefresh">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="btnRefresh.text"/>
+                        <Property name="name" type="java.lang.String" value="btnRefresh" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnRefreshMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lbMessageType">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="lbMessageType.text"/>
+                        <Property name="name" type="java.lang.String" value="lbMessageType" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="cbbMessageType">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="true"/>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="4">
+                            <StringItem index="0" value="INFORM"/>
+                            <StringItem index="1" value="WHEREAMIGPS"/>
+                            <StringItem index="2" value="WHEREAMIBT"/>
+                            <StringItem index="3" value="WHEREAMI"/>
+                          </StringArray>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="cbbMessageType" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lbMessageContents">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="lbMessageContents.text"/>
+                        <Property name="name" type="java.lang.String" value="lbMessageContents" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnCheckMessage">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="btnCheckMessage.text"/>
+                        <Property name="name" type="java.lang.String" value="btnCheckMessage" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnCheckMessageMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnSendMessage">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="btnSendMessage.text"/>
+                        <Property name="name" type="java.lang.String" value="btnSendMessage" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnSendMessageMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Container class="javax.swing.JScrollPane" name="jScrollPane6">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="jScrollPane6" noResource="true"/>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTextArea" name="taMessageReceived">
+                          <Properties>
+                            <Property name="columns" type="int" value="20"/>
+                            <Property name="rows" type="int" value="5"/>
+                            <Property name="name" type="java.lang.String" value="taMessageReceived" noResource="true"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Component class="javax.swing.JLabel" name="lbMessageReceived">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="lbMessageReceived.text"/>
+                        <Property name="name" type="java.lang.String" value="lbMessageReceived" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnLaunchAgent">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="btnLaunchAgent.text"/>
+                        <Property name="name" type="java.lang.String" value="btnLaunchAgent" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnLaunchAgentMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Container class="javax.swing.JScrollPane" name="spMessageContent">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="spMessageContent" noResource="true"/>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTextArea" name="taMessageContent">
+                          <Properties>
+                            <Property name="columns" type="int" value="20"/>
+                            <Property name="rows" type="int" value="5"/>
+                            <Property name="name" type="java.lang.String" value="taMessageContent" noResource="true"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="jScrollPane5" noResource="true"/>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTextArea" name="taOnlineHelp">
+                          <Properties>
+                            <Property name="columns" type="int" value="20"/>
+                            <Property name="editable" type="boolean" value="false"/>
+                            <Property name="rows" type="int" value="5"/>
+                            <Property name="name" type="java.lang.String" value="taOnlineHelp" noResource="true"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Component class="javax.swing.JLabel" name="jLabel1">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabel1.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabel1" noResource="true"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="jPanel2">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="jPanel2" noResource="true"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="tab2">
+                        <Property name="tabTitle" type="java.lang.String" value="tab2"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <EmptySpace min="0" pref="1043" max="32767" attributes="0"/>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <EmptySpace min="0" pref="579" max="32767" attributes="0"/>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="pContextByRules">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="pContextByRules" noResource="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Rules">
+                <Property name="tabTitle" type="java.lang.String" resourceKey="pContextByRules.TabConstraints.tabTitle"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="label2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label5" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="1" attributes="1">
+                                      <Component id="jButton8" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jButton7" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jButton6" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jScrollPane10" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="jScrollPane8" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="jScrollPane7" alignment="0" pref="320" max="32767" attributes="1"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="label3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jComboBox3" pref="348" max="32767" attributes="0"/>
+                                  <Component id="jComboBox1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="label7" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="label4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton10" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jButton5" min="-2" max="-2" attributes="1"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jButton9" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="248" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jScrollPane11" alignment="0" pref="464" max="32767" attributes="1"/>
+                          <Component id="jScrollPane9" alignment="0" pref="464" max="32767" attributes="1"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="300" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jComboBox2" alignment="0" pref="464" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jComboBox1" min="-2" max="-2" attributes="0"/>
+                          <Component id="label3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="label1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jComboBox3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="label2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane7" min="-2" pref="156" max="-2" attributes="0"/>
+                                  <Component id="label4" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                                      <Component id="label6" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jScrollPane8" min="-2" pref="120" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jScrollPane9" min="-2" pref="156" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jComboBox2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="label5" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane10" min="-2" pref="147" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                      <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jButton6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                      <Component id="jButton8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jButton7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jScrollPane11" min="-2" pref="156" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jButton5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jButton9" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label7" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="jButton10" min="-2" pref="70" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="67" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="java.awt.Label" name="label1">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="label1" noResource="true"/>
+                <Property name="text" type="java.lang.String" resourceKey="label1.text"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox1">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="2">
+                    <StringItem index="0" value="SPARQL"/>
+                    <StringItem index="1" value="SeRQL"/>
+                  </StringArray>
+                </Property>
+                <Property name="name" type="java.lang.String" value="jComboBox1" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="label2">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="label2" noResource="true"/>
+                <Property name="text" type="java.lang.String" resourceKey="label2.text"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane7">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jScrollPane7" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea1">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="name" type="java.lang.String" value="jTextArea1" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane8">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jScrollPane8" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea2">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" resourceKey="jTextArea2.text"/>
+                    <Property name="name" type="java.lang.String" value="jTextArea2" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="java.awt.Label" name="label4">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="label4" noResource="true"/>
+                <Property name="text" type="java.lang.String" resourceKey="label4.text"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane9">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jScrollPane9" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea3">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" resourceKey="jTextArea3.text"/>
+                    <Property name="name" type="java.lang.String" value="jTextArea3" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="jButton2">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jButton2.text"/>
+                <Property name="name" type="java.lang.String" value="jButton2" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton3">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jButton3.text"/>
+                <Property name="name" type="java.lang.String" value="jButton3" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="label5">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="label5" noResource="true"/>
+                <Property name="text" type="java.lang.String" resourceKey="label5.text"/>
+              </Properties>
+              <AccessibilityProperties>
+                <Property name="AccessibleContext.accessibleName" type="java.lang.String" resourceKey="label5.AccessibleContext.accessibleName"/>
+              </AccessibilityProperties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane10">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jScrollPane10" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea4">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" resourceKey="jTextArea4.text"/>
+                    <Property name="name" type="java.lang.String" value="jTextArea4" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="java.awt.Label" name="label6">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="label6" noResource="true"/>
+                <Property name="text" type="java.lang.String" resourceKey="label6.text"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton4">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jButton4.text"/>
+                <Property name="name" type="java.lang.String" value="jButton4" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton6">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jButton6.text"/>
+                <Property name="name" type="java.lang.String" value="jButton6" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton7">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jButton7.text"/>
+                <Property name="name" type="java.lang.String" value="jButton7" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton8">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jButton8.text"/>
+                <Property name="name" type="java.lang.String" value="jButton8" noResource="true"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane11">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jScrollPane11" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea5">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" resourceKey="jTextArea5.text"/>
+                    <Property name="name" type="java.lang.String" value="jTextArea5" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="java.awt.Label" name="label7">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="label7" noResource="true"/>
+                <Property name="text" type="java.lang.String" resourceKey="label7.text"/>
+              </Properties>
+              <AccessibilityProperties>
+                <Property name="AccessibleContext.accessibleName" type="java.lang.String" resourceKey="label7.AccessibleContext.accessibleName"/>
+              </AccessibilityProperties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton5">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jButton5.text"/>
+                <Property name="name" type="java.lang.String" value="jButton5" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton9">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jButton9.text"/>
+                <Property name="name" type="java.lang.String" value="jButton9" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton10">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jButton10.text"/>
+                <Property name="name" type="java.lang.String" value="jButton10" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox2">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="3">
+                    <StringItem index="0" value="Rule 1: Name"/>
+                    <StringItem index="1" value="Rule 2: Name"/>
+                    <StringItem index="2" value="Rule 3: Name"/>
+                  </StringArray>
+                </Property>
+                <Property name="name" type="java.lang.String" value="jComboBox2" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="label3">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="label3" noResource="true"/>
+                <Property name="text" type="java.lang.String" resourceKey="label3.text"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox3">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="1">
+                    <StringItem index="0" value="What places "/>
+                  </StringArray>
+                </Property>
+                <Property name="name" type="java.lang.String" value="jComboBox3" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
