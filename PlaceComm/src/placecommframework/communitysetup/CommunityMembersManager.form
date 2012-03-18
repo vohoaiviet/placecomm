@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" resourceKey="Community Members Manager.title"/>
+    <Property name="name" type="java.lang.String" value="Community Members Manager" noResource="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnAddPerson" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnAddDevice" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnAddPersonDevice" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnClearPersonDetails" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnClearDeviceDetails" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnClose" pref="106" max="32767" attributes="1"/>
+          </Group>
+          <Group type="102" alignment="0" max="-2" attributes="0">
+              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="label1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="label2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label3" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label6" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label7" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label8" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label9" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="tfPicture" alignment="1" min="-2" pref="120" max="-2" attributes="0"/>
+                          <Component id="tfOccupation" alignment="1" min="-2" pref="120" max="-2" attributes="0"/>
+                          <Component id="tfHomepage" alignment="1" min="-2" pref="120" max="-2" attributes="0"/>
+                          <Component id="tfEmail" alignment="1" min="-2" pref="120" max="-2" attributes="0"/>
+                          <Component id="tfLastname" alignment="1" min="-2" pref="120" max="-2" attributes="0"/>
+                          <Component id="tfFirstname" alignment="1" min="-2" pref="120" max="-2" attributes="0"/>
+                          <Component id="tfNickname" alignment="1" min="-2" pref="120" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="label10" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="tfOccupation1" min="-2" pref="120" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="label19" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="tfiButtonAddress" min="-2" pref="120" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="label16" min="-2" max="-2" attributes="0"/>
+                          <Component id="label13" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="label12" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="label15" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="label14" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="label17" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="tfMACAddress" alignment="1" min="-2" pref="120" max="-2" attributes="0"/>
+                          <Component id="tfManufacture" alignment="1" min="-2" pref="120" max="-2" attributes="0"/>
+                          <Component id="tfBarCode" alignment="1" min="-2" pref="120" max="-2" attributes="0"/>
+                          <Component id="tfRFIDCode" alignment="1" min="-2" pref="120" max="-2" attributes="0"/>
+                          <Component id="tfBluetoothAddress" alignment="1" min="-2" pref="120" max="-2" attributes="0"/>
+                          <Component id="tfDeviceName" alignment="1" min="-2" pref="120" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" max="-2" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="label4" min="-2" max="-2" attributes="0"/>
+                          <Component id="lstPeopleInCommunity" min="-2" pref="130" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="label5" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" max="-2" attributes="0">
+                              <Component id="lstFriendsList" min="-2" pref="130" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="btnRemoveFriends" alignment="0" pref="119" max="32767" attributes="1"/>
+                                  <Component id="btnAddFriends" alignment="0" pref="119" max="32767" attributes="1"/>
+                                  <Component id="btnLoadPerson" alignment="0" pref="119" max="32767" attributes="1"/>
+                                  <Component id="btnRemoveDevice" alignment="1" min="0" pref="0" max="32767" attributes="1"/>
+                                  <Component id="btnLoadDevice" alignment="1" pref="106" max="32767" attributes="1"/>
+                                  <Component id="btnDevice" alignment="0" max="32767" attributes="1"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Component id="label18" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" max="-2" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="chkMobilePhone" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkLaptop" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="PDA" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkPrinter" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkFurniture" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkArtifact" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="lstDevicesList" min="-2" pref="130" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label11" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lstPersonalDevcies" min="-2" pref="130" max="-2" attributes="0"/>
+                          <Component id="label20" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="tfNickname" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="label1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="tfFirstname" min="-2" max="-2" attributes="0"/>
+                          <Component id="label2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="tfLastname" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="label3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="label6" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="tfEmail" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="tfHomepage" min="-2" max="-2" attributes="0"/>
+                          <Component id="label7" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="tfPicture" min="-2" max="-2" attributes="0"/>
+                          <Component id="label8" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="tfOccupation" min="-2" max="-2" attributes="0"/>
+                          <Component id="label9" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="tfOccupation1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="label10" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="tfDeviceName" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="label12" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="tfBluetoothAddress" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="label13" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="tfRFIDCode" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="label15" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="tfBarCode" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="label14" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="1">
+                              <Component id="label17" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="label16" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="tfManufacture" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="tfMACAddress" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="label19" min="-2" max="-2" attributes="0"/>
+                          <Component id="tfiButtonAddress" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lstPeopleInCommunity" min="-2" pref="170" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="btnAddFriends" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btnRemoveFriends" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btnLoadPerson" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="lstFriendsList" alignment="0" min="-2" pref="170" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label18" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="chkMobilePhone" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="chkLaptop" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="PDA" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label11" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="btnDevice" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btnRemoveDevice" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btnLoadDevice" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lstPersonalDevcies" min="-2" pref="70" max="-2" attributes="1"/>
+                                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                                      <Component id="label20" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="chkPrinter" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="chkFurniture" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="chkArtifact" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lstDevicesList" min="-2" pref="90" max="-2" attributes="1"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="btnAddPerson" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnAddDevice" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnAddPersonDevice" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnClearPersonDetails" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnClearDeviceDetails" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnClose" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="java.awt.Label" name="label1">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label1" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label1.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="tfNickname">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tfNickname" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="tfNickname.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="tfFirstname">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tfFirstname" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="tfFirstname.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label2">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label2" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label2.text"/>
+      </Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" resourceKey="label2.AccessibleContext.accessibleName"/>
+      </AccessibilityProperties>
+    </Component>
+    <Component class="java.awt.Label" name="label3">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label3" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label3.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="tfLastname">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tfLastname" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="tfLastname.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.List" name="lstFriendsList">
+      <Properties>
+        <Property name="multipleMode" type="boolean" value="true"/>
+        <Property name="name" type="java.lang.String" value="lstFriendsList" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label4">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label4" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label4.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label5">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label5" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label5.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.List" name="lstPeopleInCommunity">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="lstPeopleInCommunity" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lstPeopleInCommunityMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Label" name="label6">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label6" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label6.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="tfEmail">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tfEmail" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="tfEmail.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label7">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label7" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label7.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="tfHomepage">
+      <Properties>
+        <Property name="name" type="java.lang.String" value=" " noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey=" .text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label8">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label8" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label8.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="tfPicture">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tfPicture" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="tfPicture.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label9">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label9" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label9.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="tfOccupation">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tfOccupation" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="tfOccupation.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="tfOccupation1">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tfOccupation1" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="tfOccupation1.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label10">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label10" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label10.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.List" name="lstDevicesList">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="lstDevicesList" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label11">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label11" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label11.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label12">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label12" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label12.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="tfDeviceName">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tfDeviceName" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="tfDeviceName.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label13">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label13" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label13.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="tfBluetoothAddress">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tfBluetoothAddress" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="tfBluetoothAddress.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label14">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label14" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label14.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="tfBarCode">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tfBarCode" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="tfBarCode.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label15">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label15" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label15.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="tfRFIDCode">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tfRFIDCode" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="tfRFIDCode.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label16">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label16" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label16.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="tfMACAddress">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tfMACAddress" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="tfMACAddress.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label17">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label17" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label17.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="tfManufacture">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tfManufacture" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="tfManufacture.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label18">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label18" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label18.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Button" name="btnDevice">
+      <Properties>
+        <Property name="label" type="java.lang.String" resourceKey="btnDevice.label"/>
+        <Property name="name" type="java.lang.String" value="btnDevice" noResource="true"/>
+      </Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" resourceKey="btnDevice.AccessibleContext.accessibleName"/>
+      </AccessibilityProperties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDeviceActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Button" name="btnRemoveDevice">
+      <Properties>
+        <Property name="actionCommand" type="java.lang.String" resourceKey="btnRemoveDevice.actionCommand"/>
+        <Property name="label" type="java.lang.String" resourceKey="btnRemoveDevice.label"/>
+        <Property name="name" type="java.lang.String" value="btnRemoveDevice" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnRemoveDeviceMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Checkbox" name="chkMobilePhone">
+      <Properties>
+        <Property name="label" type="java.lang.String" resourceKey="chkMobilePhone.label"/>
+        <Property name="name" type="java.lang.String" value="chkMobilePhone" noResource="true"/>
+        <Property name="state" type="boolean" value="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Checkbox" name="chkLaptop">
+      <Properties>
+        <Property name="label" type="java.lang.String" resourceKey="chkLaptop.label"/>
+        <Property name="name" type="java.lang.String" value="chkLaptop" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Checkbox" name="chkPrinter">
+      <Properties>
+        <Property name="label" type="java.lang.String" resourceKey="chkPrinter.label"/>
+        <Property name="name" type="java.lang.String" value="chkPrinter" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Checkbox" name="PDA">
+      <Properties>
+        <Property name="label" type="java.lang.String" resourceKey="PDA.label"/>
+        <Property name="name" type="java.lang.String" value="PDA" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Checkbox" name="chkArtifact">
+      <Properties>
+        <Property name="label" type="java.lang.String" resourceKey="chkArtifact.label"/>
+        <Property name="name" type="java.lang.String" value="chkArtifact" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Checkbox" name="chkFurniture">
+      <Properties>
+        <Property name="label" type="java.lang.String" resourceKey="chkFurniture.label"/>
+        <Property name="name" type="java.lang.String" value="chkFurniture" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="tfiButtonAddress">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tfiButtonAddress" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="tfiButtonAddress.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label19">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label19" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label19.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Button" name="btnAddPerson">
+      <Properties>
+        <Property name="label" type="java.lang.String" resourceKey="btnAddPerson.label"/>
+        <Property name="name" type="java.lang.String" value="btnAddPerson" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnAddPersonMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Button" name="btnAddDevice">
+      <Properties>
+        <Property name="label" type="java.lang.String" resourceKey="btnAddDevice.label"/>
+        <Property name="name" type="java.lang.String" value="btnAddDevice" noResource="true"/>
+      </Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" resourceKey="btnClearPersonDetails1.AccessibleContext.accessibleName"/>
+      </AccessibilityProperties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnAddDeviceMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Button" name="btnClose">
+      <Properties>
+        <Property name="label" type="java.lang.String" resourceKey="btnClose.label"/>
+        <Property name="name" type="java.lang.String" value="btnClose" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnCloseMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Button" name="btnAddFriends">
+      <Properties>
+        <Property name="label" type="java.lang.String" resourceKey="btnAddFriends.label"/>
+        <Property name="name" type="java.lang.String" value="btnAddFriends" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnAddFriendsMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAddFriendsActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Button" name="btnRemoveFriends">
+      <Properties>
+        <Property name="actionCommand" type="java.lang.String" resourceKey="btnRemoveFriends.actionCommand"/>
+        <Property name="label" type="java.lang.String" resourceKey="btnRemoveFriends.label"/>
+        <Property name="name" type="java.lang.String" value="btnRemoveFriends" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Button" name="btnClearDeviceDetails">
+      <Properties>
+        <Property name="label" type="java.lang.String" resourceKey="btnClearDeviceDetails.label"/>
+        <Property name="name" type="java.lang.String" value="btnClearDeviceDetails" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Button" name="btnClearPersonDetails">
+      <Properties>
+        <Property name="label" type="java.lang.String" resourceKey="btnClearPersonDetails.label"/>
+        <Property name="name" type="java.lang.String" value="btnClearPersonDetails" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnClearPersonDetailsMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Button" name="btnAddPersonDevice">
+      <Properties>
+        <Property name="label" type="java.lang.String" resourceKey="btnAddPersonDevice.label"/>
+        <Property name="name" type="java.lang.String" value="btnAddPersonDevice" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Button" name="btnLoadPerson">
+      <Properties>
+        <Property name="actionCommand" type="java.lang.String" resourceKey="btnLoadPerson.actionCommand"/>
+        <Property name="label" type="java.lang.String" resourceKey="btnLoadPerson.label"/>
+        <Property name="name" type="java.lang.String" value="btnLoadPerson" noResource="true"/>
+      </Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" resourceKey="btnLoadPerson.AccessibleContext.accessibleName"/>
+      </AccessibilityProperties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnLoadPersonMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Button" name="btnLoadDevice">
+      <Properties>
+        <Property name="actionCommand" type="java.lang.String" resourceKey="btnLoadDevice.actionCommand"/>
+        <Property name="label" type="java.lang.String" resourceKey="btnLoadDevice.label"/>
+        <Property name="name" type="java.lang.String" value="btnLoadDevice" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.List" name="lstPersonalDevcies">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="lstPersonalDevcies" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label20">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label20" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label20.text"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

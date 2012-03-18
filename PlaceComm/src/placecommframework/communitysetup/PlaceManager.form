@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="label1" min="-2" max="-2" attributes="0"/>
+                          <Component id="label2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="label3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="label4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="label10" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="tfLat" alignment="0" pref="217" max="32767" attributes="1"/>
+                          <Component id="tfPlaceName" alignment="0" pref="217" max="32767" attributes="1"/>
+                          <Component id="tfLon" alignment="0" pref="217" max="32767" attributes="1"/>
+                          <Component id="tfLon1" alignment="0" pref="217" max="32767" attributes="1"/>
+                          <Component id="choicePlaceCategory" alignment="0" pref="217" max="32767" attributes="1"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="btnCreatPlace" alignment="1" max="32767" attributes="1"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                              <Component id="label5" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="1">
+                              <Component id="btnDeletePlace" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="btnClose" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="label6" alignment="0" max="32767" attributes="1"/>
+                          <Component id="lstTagDevice" alignment="0" min="-2" pref="217" max="-2" attributes="1"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="label7" min="-2" max="-2" attributes="0"/>
+                  <Component id="label9" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="taMessage" pref="217" max="32767" attributes="1"/>
+                  <Component id="label8" alignment="0" min="-2" max="-2" attributes="1"/>
+                  <Component id="lstPeople" alignment="0" pref="217" max="32767" attributes="1"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="label9" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="taMessage" alignment="0" max="32767" attributes="1"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="label1" min="-2" max="-2" attributes="0"/>
+                              <Component id="tfPlaceName" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="label2" min="-2" max="-2" attributes="0"/>
+                              <Component id="choicePlaceCategory" min="-2" pref="33" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="label3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tfLat" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="label4" min="-2" max="-2" attributes="0"/>
+                              <Component id="tfLon" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="label10" min="-2" max="-2" attributes="0"/>
+                              <Component id="tfLon1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="label7" min="-2" max="-2" attributes="0"/>
+                          <Component id="lstPeople" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="label8" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="label5" min="-2" max="-2" attributes="0"/>
+                          <Component id="lstTagDevice" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="label6" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="btnCreatPlace" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnDeletePlace" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnClose" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="java.awt.TextField" name="tfPlaceName">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tfPlaceName" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="tfPlaceName.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label1">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label1" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label1.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Choice" name="choicePlaceCategory">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="choicePlaceCategory" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label2">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label2" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label2.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="tfLat">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tfLat" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="tfLat.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label3">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label3" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label3.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label4">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label4" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label4.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="tfLon">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tfLon" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="tfLon.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.List" name="lstTagDevice">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="lstTagDevice" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label5">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label5" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label5.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label6">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label6" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label6.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label7">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label7" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label7.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.List" name="lstPeople">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="lstPeople" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label8">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label8" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label8.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextArea" name="taMessage">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="taMessage" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label9">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label9" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label9.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label10">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="label10" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="label10.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="tfLon1">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tfLon1" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Button" name="btnCreatPlace">
+      <Properties>
+        <Property name="label" type="java.lang.String" resourceKey="Create Place.label"/>
+        <Property name="name" type="java.lang.String" value="Create Place" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnCreatPlaceMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Button" name="btnDeletePlace">
+      <Properties>
+        <Property name="label" type="java.lang.String" resourceKey="btnDeletePlace.label"/>
+        <Property name="name" type="java.lang.String" value="btnDeletePlace" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Button" name="btnClose">
+      <Properties>
+        <Property name="label" type="java.lang.String" resourceKey="btnClose.label"/>
+        <Property name="name" type="java.lang.String" value="btnClose" noResource="true"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="btGenerateSPARQL" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btParseSPARQL" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="btExecute" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btClear" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jLabel13" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="cbbPredefinedQuerries" alignment="0" pref="419" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" pref="380" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="tfWhereSubject2" min="-2" pref="105" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="cbbPredicate2" min="-2" pref="105" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="tfWhereObject2" min="-2" pref="105" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="tfWhereSubject3" min="-2" pref="105" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="cbbPredicate3" min="-2" pref="105" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="tfWhereObject3" min="-2" pref="105" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="tfWhereSubject4" min="-2" pref="105" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="cbbPredicate4" min="-2" pref="105" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="tfWhereObject4" min="-2" pref="105" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="tfSelectSubject" min="-2" pref="105" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="tfSelectObject" min="-2" pref="105" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="tfWhereSubject1" min="-2" pref="105" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="cbbPredicate1" min="-2" pref="105" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="tfWhereObject1" min="-2" pref="105" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                          <Component id="cbTimeConcern" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel11" min="-2" max="-2" attributes="1"/>
+                                  <Component id="tfTimestamp1" min="-2" pref="165" max="-2" attributes="1"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel12" min="-2" max="-2" attributes="1"/>
+                                  <Component id="tfTimestamp2" alignment="0" pref="199" max="32767" attributes="1"/>
+                              </Group>
+                          </Group>
+                          <Component id="tfFilter" pref="370" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="tfWhereSubject5" min="-2" pref="105" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="cbbPredicate5" min="-2" pref="105" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="tfWhereObject5" min="-2" pref="105" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jScrollPane1" alignment="0" pref="419" max="32767" attributes="1"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="389" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                  <Component id="jScrollPane2" pref="119" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfSelectSubject" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfSelectObject" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfWhereSubject1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfWhereObject1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cbbPredicate1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfWhereSubject2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfWhereObject2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cbbPredicate2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfWhereSubject3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfWhereObject3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cbbPredicate3" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfWhereSubject4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfWhereObject4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cbbPredicate4" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfWhereSubject5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfWhereObject5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cbbPredicate5" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfFilter" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="tfTimestamp1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cbTimeConcern" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="tfTimestamp2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="150" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="cbbPredefinedQuerries" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btGenerateSPARQL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btParseSPARQL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btExecute" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btClear" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel1.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel1" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfSelectSubject">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="tfSelectSubject.text"/>
+        <Property name="name" type="java.lang.String" value="tfSelectSubject" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfSelectObject">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="tfSelectObject.text"/>
+        <Property name="name" type="java.lang.String" value="tfSelectObject" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel2.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel2" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfWhereSubject1">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="tfWhereSubject1.text"/>
+        <Property name="name" type="java.lang.String" value="tfWhereSubject1" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfWhereObject1">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="tfWhereObject1.text"/>
+        <Property name="name" type="java.lang.String" value="tfWhereObject1" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbbPredicate1">
+      <Properties>
+        <Property name="editable" type="boolean" value="true"/>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="12">
+            <StringItem index="0" value="rdfs:"/>
+            <StringItem index="1" value="swrl:"/>
+            <StringItem index="2" value="protege:"/>
+            <StringItem index="3" value="foaf:"/>
+            <StringItem index="4" value="dev:"/>
+            <StringItem index="5" value="xsp:"/>
+            <StringItem index="6" value="swrlb:"/>
+            <StringItem index="7" value="xsd:"/>
+            <StringItem index="8" value="owl:"/>
+            <StringItem index="9" value="rdf:"/>
+            <StringItem index="10" value="pbvc:"/>
+            <StringItem index="11" value="plc:"/>
+          </StringArray>
+        </Property>
+        <Property name="name" type="java.lang.String" value="cbbPredicate1" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel3.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel3" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel8.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel8" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfFilter">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="tfFilter.text"/>
+        <Property name="name" type="java.lang.String" value="tfFilter" noResource="true"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="jScrollPane1" noResource="true"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="taSparqlQuery">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="name" type="java.lang.String" value="taSparqlQuery" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel9.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel9" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btGenerateSPARQL">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="btGenerateSPARQL.text"/>
+        <Property name="name" type="java.lang.String" value="btGenerateSPARQL" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btGenerateSPARQLMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btParseSPARQL">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="btParseSPARQL.text"/>
+        <Property name="name" type="java.lang.String" value="btParseSPARQL" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseWheelMoved" listener="java.awt.event.MouseWheelListener" parameters="java.awt.event.MouseWheelEvent" handler="btParseSPARQLMouseWheelMoved"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btParseSPARQLMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btExecute">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="btExecute.text"/>
+        <Property name="name" type="java.lang.String" value="btExecute" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btExecuteMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btClear">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="btClear.text"/>
+        <Property name="name" type="java.lang.String" value="btClear" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btClearMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel10.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel10" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel4.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel4" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfWhereSubject2">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tfWhereSubject2" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbbPredicate2">
+      <Properties>
+        <Property name="editable" type="boolean" value="true"/>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="12">
+            <StringItem index="0" value="plc:"/>
+            <StringItem index="1" value="rdfs:"/>
+            <StringItem index="2" value="swrl:"/>
+            <StringItem index="3" value="protege:"/>
+            <StringItem index="4" value="foaf:"/>
+            <StringItem index="5" value="dev:"/>
+            <StringItem index="6" value="xsp:"/>
+            <StringItem index="7" value="swrlb:"/>
+            <StringItem index="8" value="xsd:"/>
+            <StringItem index="9" value="owl:"/>
+            <StringItem index="10" value="rdf:"/>
+            <StringItem index="11" value="pbvc:"/>
+          </StringArray>
+        </Property>
+        <Property name="name" type="java.lang.String" value="cbbPredicate2" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfWhereObject2">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="tfWhereObject2.text"/>
+        <Property name="name" type="java.lang.String" value="tfWhereObject2" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel5.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel5" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfWhereSubject3">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tfWhereSubject3" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbbPredicate3">
+      <Properties>
+        <Property name="editable" type="boolean" value="true"/>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="12">
+            <StringItem index="0" value="swrl:"/>
+            <StringItem index="1" value="protege:"/>
+            <StringItem index="2" value="foaf:"/>
+            <StringItem index="3" value="dev:"/>
+            <StringItem index="4" value="xsp:"/>
+            <StringItem index="5" value="swrlb:"/>
+            <StringItem index="6" value="xsd:"/>
+            <StringItem index="7" value="owl:"/>
+            <StringItem index="8" value="rdf:"/>
+            <StringItem index="9" value="rdfs:"/>
+            <StringItem index="10" value="pbvc:"/>
+            <StringItem index="11" value="plc:"/>
+          </StringArray>
+        </Property>
+        <Property name="name" type="java.lang.String" value="cbbPredicate3" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfWhereObject3">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="tfWhereObject3.text"/>
+        <Property name="name" type="java.lang.String" value="tfWhereObject3" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel6.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel6" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfWhereSubject4">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tfWhereSubject4" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbbPredicate4">
+      <Properties>
+        <Property name="editable" type="boolean" value="true"/>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="13">
+            <StringItem index="0" value="protege:"/>
+            <StringItem index="1" value="swrl:"/>
+            <StringItem index="2" value="foaf:"/>
+            <StringItem index="3" value="dev:"/>
+            <StringItem index="4" value="xsp:"/>
+            <StringItem index="5" value="swrlb:"/>
+            <StringItem index="6" value="xsd:"/>
+            <StringItem index="7" value="owl:"/>
+            <StringItem index="8" value="rdf:"/>
+            <StringItem index="9" value="rdfs:"/>
+            <StringItem index="10" value="pbvc:"/>
+            <StringItem index="11" value="plc:"/>
+            <StringItem index="12" value=" "/>
+          </StringArray>
+        </Property>
+        <Property name="name" type="java.lang.String" value="cbbPredicate4" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfWhereObject4">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="tfWhereObject4.text"/>
+        <Property name="name" type="java.lang.String" value="tfWhereObject4" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel7.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel7" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfWhereSubject5">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tfWhereSubject5" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbbPredicate5">
+      <Properties>
+        <Property name="editable" type="boolean" value="true"/>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="13">
+            <StringItem index="0" value="owl:"/>
+            <StringItem index="1" value="protege:"/>
+            <StringItem index="2" value="swrl:"/>
+            <StringItem index="3" value="foaf:"/>
+            <StringItem index="4" value="dev:"/>
+            <StringItem index="5" value="xsp:"/>
+            <StringItem index="6" value="swrlb:"/>
+            <StringItem index="7" value="xsd:"/>
+            <StringItem index="8" value="rdf:"/>
+            <StringItem index="9" value="rdfs:"/>
+            <StringItem index="10" value="pbvc:"/>
+            <StringItem index="11" value="plc:"/>
+            <StringItem index="12" value=" "/>
+          </StringArray>
+        </Property>
+        <Property name="name" type="java.lang.String" value="cbbPredicate5" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfWhereObject5">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="tfWhereObject5.text"/>
+        <Property name="name" type="java.lang.String" value="tfWhereObject5" noResource="true"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="jScrollPane2" noResource="true"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="lstPrefix">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="12">
+                <StringItem index="0" value="PREFIX plc:&lt;http://www.tuannguyen.mobi/ontologies/pbvc/2009/4/place.owl#&gt;"/>
+                <StringItem index="1" value="PREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;"/>
+                <StringItem index="2" value="PREFIX swrl:&lt;http://www.w3.org/2003/11/swrl#&gt;"/>
+                <StringItem index="3" value="PREFIX protege:&lt;http://protege.stanford.edu/plugins/owl/protege#&gt;"/>
+                <StringItem index="4" value="PREFIX foaf:&lt;http://xmlns.com/foaf/0.1/&gt;"/>
+                <StringItem index="5" value="PREFIX dev:&lt;http://www.tuannguyen.mobi/ontologies/pbvc/2009/4/device.owl#&gt;"/>
+                <StringItem index="6" value="PREFIX xsp:&lt;http://www.owl-ontologies.com/2005/08/07/xsp.owl#&gt;"/>
+                <StringItem index="7" value="PREFIX swrlb:&lt;http://www.w3.org/2003/11/swrlb#&gt;"/>
+                <StringItem index="8" value="PREFIX xsd:&lt;http://www.w3.org/2001/XMLSchema#&gt;"/>
+                <StringItem index="9" value="PREFIX owl:&lt;http://www.w3.org/2002/07/owl#&gt;"/>
+                <StringItem index="10" value="PREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;"/>
+                <StringItem index="11" value="PREFIX pbvc:&lt;http://www.tuannguyen.mobi/ontologies/pbvc/2009/4/pbvc.owl#&gt;"/>
+              </StringArray>
+            </Property>
+            <Property name="name" type="java.lang.String" value="lstPrefix" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel11">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel11.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel11" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel12">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel12.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel12" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfTimestamp2">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="tfTimestamp2.text"/>
+        <Property name="name" type="java.lang.String" value="tfTimestamp2" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfTimestamp1">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="tfTimestamp1.text"/>
+        <Property name="name" type="java.lang.String" value="tfTimestamp1" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="cbTimeConcern">
+      <Properties>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="cbTimeConcern.text"/>
+        <Property name="name" type="java.lang.String" value="cbTimeConcern" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbbPredefinedQuerries">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="35">
+            <StringItem index="0" value="Query1"/>
+            <StringItem index="1" value="Query2"/>
+            <StringItem index="2" value="Query3"/>
+            <StringItem index="3" value="Query4"/>
+            <StringItem index="4" value="Query5"/>
+            <StringItem index="5" value="Query6"/>
+            <StringItem index="6" value="Query7"/>
+            <StringItem index="7" value="Query8"/>
+            <StringItem index="8" value="Query9"/>
+            <StringItem index="9" value="Query10"/>
+            <StringItem index="10" value="Query11"/>
+            <StringItem index="11" value="Query12"/>
+            <StringItem index="12" value="Query13"/>
+            <StringItem index="13" value="Query14"/>
+            <StringItem index="14" value="Query15"/>
+            <StringItem index="15" value="Query16"/>
+            <StringItem index="16" value="Query17"/>
+            <StringItem index="17" value="Query18"/>
+            <StringItem index="18" value="Query19"/>
+            <StringItem index="19" value="Query20"/>
+            <StringItem index="20" value="Query21"/>
+            <StringItem index="21" value="Query22"/>
+            <StringItem index="22" value="Query23"/>
+            <StringItem index="23" value="Query24"/>
+            <StringItem index="24" value="Query25"/>
+            <StringItem index="25" value="Query26"/>
+            <StringItem index="26" value="Query27"/>
+            <StringItem index="27" value="Query28"/>
+            <StringItem index="28" value="Query29"/>
+            <StringItem index="29" value="Query30"/>
+            <StringItem index="30" value="Query31"/>
+            <StringItem index="31" value="Query32"/>
+            <StringItem index="32" value="Query33"/>
+            <StringItem index="33" value="Query34"/>
+            <StringItem index="34" value=" "/>
+          </StringArray>
+        </Property>
+        <Property name="name" type="java.lang.String" value="cbbPredefinedQuerries" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="cbbPredefinedQuerriesItemStateChanged"/>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="cbbPredefinedQuerriesPropertyChange"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel13">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel13.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel13" noResource="true"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
